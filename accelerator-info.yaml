@@ -1,0 +1,15 @@
+id: eea26590-d2d4-4799-b51a-c9b54ad1c060
+timestamp: 2023-09-07T07:57:04Z
+username: magnus.kronander@rts.se
+source: TAP-GUI
+accelerator:
+  name: weatherforecast-csharp
+  source:
+    image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:09609dda82694866239a01daa6ab5740af3d64149300dcda22ac09315b4ea439
+fragments:
+  - name: tap-workload
+    source:
+      image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:d9c7d8d322f0740666ba7c752a9174d1eb66274338c4f0e211edb1d448104c2a
+options:
+  applicationName: DotNet HelloWorld
+  projectName: dotnet-hello-world
