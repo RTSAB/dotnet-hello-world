@@ -1,4 +1,4 @@
-namespace DotNet HelloWorld;
+namespace dotnethelloworld;
 
 public class WeatherForecast
 {

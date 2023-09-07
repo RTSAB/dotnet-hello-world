@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNet HelloWorld.Controllers;
+namespace dotnethelloworld.controllers;
 
 [ApiController]
 [Route("[controller]")]
