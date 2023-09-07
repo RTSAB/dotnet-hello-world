@@ -11,6 +11,9 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
+  - name: testing_pipeline_params
+    value:
+      username: dummy-user-from-workload-config!
   source:
     git:
       url: https://github.com/RTSAB/dotnet-hello-world
